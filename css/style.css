@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../pic/background1.jpg);
+	font-family: 'Roboto Mono', monospace, Arial, sans-serif;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	margin-top: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+#wrapper {
+	width: 900px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+	border-top: 0.1px solid #e8d064;
+	border-right: 0.1px solid #e8d064;
+	border-left: 0.1px solid #e8d064;
+}
+
+#header {
+	width: auto;
+	height: 162px;
+	background-color: #020003;
+	overflow: hidden;
+	background-image: url(../pic/zaglavlje.jpg);
+}
+
+
+#nav {
+	height: 40px;
+	background-image: url(../pic/meni.jpg);
+	width: auto;
+	font-size: 14px;
+}
+
+#nav ul {
+	margin: 0;
+	pedding: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+	padding: 10px;
+}
+
+#nav ul li a {
+	diplay: block;
+	padding: 10px;
+	height: 12px; 
+
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	color: #d8261c;
+	background-color: #fff;
+}
+
+#nav ul li a:active {
+	color: #fff;
+	background-color: #e8d064;
+}
+
+a:link,
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:active {
+	color: #000;
+}
+
+#social {
+	float: right;
+	font-size: 26px;
+	margin-right: 20px;
+}
+
+#social a:link,
+#social a:visited {
+	color: #878787;
+}
+
+#social a:hover {
+	color: #FFF;
+}
+
+#social a:active {
+	color: #e8d064;
+}
+
+#main {
+	width: 651px;
+	height: auto;
+	background-color: #fff;
+	float: left;
+}
+
+.main_block {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #C1B7B7;
+	background-color: #fff;
+	list-style: disc
+}
+
+.main_block ul li{
+	list-style:inherit;
+}
+
+.osnivaci {
+	width: 300px;
+	float:left;
+	margin-right: 10px;
+}
+
+.stadion {
+	width: 75%;
+	float: right;
+	margin-left: 10px;
+}
+
+.stadion1 {
+	width: 618px;
+}
+
+.stadion3 {
+	width: 300px;
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+.stadion4 {
+	width: 300px;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+.stadion5 {
+	width: 608px;
+}
+
+.stara_garda {
+	width: 608px;
+}
+
+#sidebar {
+	width: 248px;
+	height: auto;
+	float: right;
+	background-color: #fff;
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.block {
+	height: auto;
+	border: solid 1px #C1B7B7;
+	background-color: #fff;
+	margin: 10px 10px 10px 0;
+	padding:5px;
+
+}
+
+.block2 {
+	height: auto;
+	border: solid 1px #C1B7B7;
+	background-color: #fff;
+	margin: 10px 10px 10px 0;
+	padding: 5px;
+
+}
+
+#footer {
+	font-size: 16px;
+	height: 38px;
+	padding-bottom: 2px;
+	clear: both;
+	font-style: italic;
+	background-image: url(../pic/meni.jpg);
+	color: #fff;
+	text-align: center;
+
+}
+
+#footer p {
+	margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	margin: 0.3em 0 0.5em 0;
+}
+
+h1 {font-size: 34px;}
+h2 {font-size: 26px;}
+h3 {font-size: 24px;}
+h4 {font-size: 22px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;}
+
+h1,h2 {
+	text-align: center;
+}
+
+#main p:first-of-type:first-letter{
+	color:#FF0004;
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 50px;
+	float: left;
+	display: block;
+	margin: 0 5px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
